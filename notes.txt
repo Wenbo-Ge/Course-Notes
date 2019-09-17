@@ -1,1 +1,5 @@
-Hello World
+Java Note:
+Run java in cmd, need to run cmd in adminstor, or it may not work
+type cd c:\(need disk name) to locate the dirctory
+first need to compile the JavaMain.java file,
+second need to run java, java JavaMain (dont need to include .class)
