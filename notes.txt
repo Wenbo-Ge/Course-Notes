@@ -6,3 +6,10 @@ second need to run java, java JavaMain (dont need to include .class)
 
 
 Java lab
+
+when declare the variable with public:
+public int time = 10;
+then for the method function should start with public (start with public_static will have conflicts):
+public void displayCar() {
+		System.out.print("Plate is " + plate + " with time of " + time + ", velocity is " + velocity);
+	}
