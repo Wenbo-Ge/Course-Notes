@@ -10,39 +10,39 @@ second need to run java, java JavaMain (dont need to include .class)
 
 # static to non-staic error
 
-when declare the variable with public outside of a method ():
-public int time = 10;
-then for the method function should start with public (start with public static will have conflicts):
-public void displayCar() {
+	when declare the variable with public outside of a method ():
+		public int time = 10;
+	then for the method function should start with public (start with public static will have conflicts):
+		public void displayCar() {
 		System.out.print("Plate is " + plate + " with time of " + time + ", velocity is " + velocity);
-	}
-	
-or just declera varible in the method.
+		}
+
+	or just declera varible in the method.
 
 
 # Java class structure:
 
-public class Car {
+	public class Car {
 
-//constructors
-  public Car (String pl) {
-  //initilization 
-  plate = pl;
-  }
-  
-//methods
+	//constructors
+	  public Car (String pl) {
+	  //initilization 
+	  plate = pl;
+	  }
 
-//void means no need to return datatype
-public void displayCar() {
-		System.out.print("Plate is " + plate + " with time of " + time + ", velocity is " + velocity);
+	//methods
+
+	//void means no need to return datatype
+	public void displayCar() {
+			System.out.print("Plate is " + plate + " with time of " + time + ", velocity is " + velocity);
+		}
+	// no void means need to return datatype
+	public double calcAcceleration () {
+			return accleration =  velocity /  time;
+		}
+
+	// main
+	public static void main(String[] args) {
+
+	  }
 	}
-// no void means need to return datatype
-public double calcAcceleration () {
-		return accleration =  velocity /  time;
-	}
-
-// main
-public static void main(String[] args) {
-
-  }
-}
