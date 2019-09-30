@@ -30,7 +30,7 @@ second need to run java, java JavaMain (dont need to include .class)
 	  plate = pl;
 	  }
 
-	//methods
+	//methods always with prentsise
 
 	//void means no need to return datatype
 	public void displayCar() {
@@ -46,3 +46,7 @@ second need to run java, java JavaMain (dont need to include .class)
 
 	  }
 	}
+	
+# Scanner 
+	Scanner is class.
+	
