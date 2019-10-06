@@ -50,3 +50,6 @@ second need to run java, java JavaMain (dont need to include .class)
 # Scanner 
 	Scanner is class.
 	
+# Constructor
+	A constructor has the same name as the class name
+	
