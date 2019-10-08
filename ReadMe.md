@@ -53,3 +53,7 @@ second need to run java, java JavaMain (dont need to include .class)
 # Constructor
 	A constructor has the same name as the class name
 	
+# Java printf formatting
+
+	https://www.geeksforgeeks.org/formatted-output-in-java/
+	
