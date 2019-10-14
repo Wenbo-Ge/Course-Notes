@@ -54,6 +54,12 @@ second need to run java, java JavaMain (dont need to include .class)
 	A constructor has the same name as the class name
 	
 # Java printf formatting
-
 	https://www.geeksforgeeks.org/formatted-output-in-java/
+
+# SQL different joins
+	https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join
+	
+# Java static VS instance variable (give default value to variable).
+	instance variable: String Name = '';
+	
 	
