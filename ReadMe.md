@@ -10,14 +10,13 @@ second need to run java, java JavaMain (dont need to include .class)
 
 # static to non-staic error
 
-	when declare the variable with public outside of a method ():
-		public int time = 10;
-	then for the method function should start with public (start with public static will have conflicts):
-		public void displayCar() {
-		System.out.print("Plate is " + plate + " with time of " + time + ", velocity is " + velocity);
-		}
+	class A{  
+	 int a=40;//non static  
 
-	or just declera varible in the method.
+	 public static void main(String args[]){  
+	  System.out.println(a);  // System.out.println is static method, so will have error
+	 }  
+	}     
 
 
 # Java class structure:
