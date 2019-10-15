@@ -14,7 +14,7 @@ second need to run java, java JavaMain (dont need to include .class)
 	 int a=40;//non static  
 
 	 public static void main(String args[]){  
-	  System.out.println(a);  // System.out.println is static method, so will have error
+	  System.out.println(a);  // System.out.println is static method, so will have error, create an instance, then it will work
 	 }  
 	}     
 
