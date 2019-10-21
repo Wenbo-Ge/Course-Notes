@@ -60,5 +60,7 @@ second need to run java, java JavaMain (dont need to include .class)
 	
 # Java static VS instance variable (give default value to variable).
 	instance variable: String Name = '';
-	
+
+# Java file name and class name
+	When changing the file name, should also change the class name, or file will not complile
 	
