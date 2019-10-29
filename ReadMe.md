@@ -67,3 +67,7 @@ second need to run java, java JavaMain (dont need to include .class)
 # Java decimal formatting
 	http://tutorials.jenkov.com/java-internationalization/decimalformat.html
 	
+# Java variables
+	String str; this is the object, default value is null, so no memories.
+	int a ; this is primitive, default value is 0. memory is allocated.
+	int _test, $test are okay to compile but not recommended!
