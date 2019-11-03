@@ -58,6 +58,9 @@ second need to run java, java JavaMain (dont need to include .class)
 # SQL different joins
 	https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join
 	
+# SQL entities and tables:
+	https://www.quora.com/What-is-the-difference-between-entity-and-table-in-a-database
+	
 # Java static VS instance variable (give default value to variable).
 	instance variable: String Name = '';
 
