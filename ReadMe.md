@@ -74,3 +74,19 @@ second need to run java, java JavaMain (dont need to include .class)
 	String str; this is the object, default value is null, so no memories.
 	int a ; this is primitive, default value is 0. memory is allocated.
 	int _test, $test are okay to compile but not recommended!
+	
+# Java private variable vs pulic variable
+	class One {
+		private String content; // private variable cannot be directly used in other class, but can put variable into public 			method then called by other classes
+		public void display () {
+			content = "aa"
+		} // private can be used in pulic method then method can be called in other classes
+	}
+	class Two {
+		One call = new One();
+		sysout.print(call.content) // this won't work because of private variable
+		call.display() //will work becasue of pulic method
+	}
+	
+	
+	
