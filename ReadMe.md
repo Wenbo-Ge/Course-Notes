@@ -88,5 +88,18 @@ second need to run java, java JavaMain (dont need to include .class)
 		call.display() //will work becasue of pulic method
 	}
 	
-	
+# SQL deleting and dropping order:
+	child is frist then parent (in terms of foreign key)
+
+# java else if:
+	Use the else if statement to specify a new condition if the first condition is false.
+
+	if (condition1) {
+	  // block of code to be executed if condition1 is true
+	} else if (condition2) {
+	  // block of code to be executed if the condition1 is false and condition2 is true
+	} else {
+	  // block of code to be executed if the condition1 is false and condition2 is false
+	}
+
 	
