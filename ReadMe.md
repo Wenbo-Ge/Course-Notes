@@ -102,5 +102,11 @@ second need to run java, java JavaMain (dont need to include .class)
 	  // block of code to be executed if the condition1 is false and condition2 is false
 	}
 
+# java casting:
+	small to large will be automated converted: 5 to "5" 
+	large to small must use conversion Double.parse("")
+
+java field vs variable:
+Field is a data member of a class. A field is non static, non-transient instance variable. Field is generally a private variable on an instance class. Variables are comprised of fields and non-fields
 
 	
