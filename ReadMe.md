@@ -110,3 +110,16 @@ second need to run java, java JavaMain (dont need to include .class)
 	Field is a data member of a class. A field is non static, non-transient instance variable. Field is generally a private variable 	on an instance class. Variables are comprised of fields and non-fields
 
 	
+# Sql
+	--Test
+	select * from part_ext_t
+	INSERT INTO Part_EXT_T( Part, Material, Size, Cost ) VALUES( 'BOLT', 'BRASS', 'SMALL', null );
+	INSERT INTO Part_EXT_T( Part, Material, Size, Cost ) VALUES( 'WASHER', 'BRASS', 'SMALL', null );
+	INSERT INTO Part_EXT_T( Part, Material, Size, Cost ) VALUES( 'NUT', 'BRASS', 'SMALL', null );
+
+	select count(*), count(cost), avg(cost)
+	from part_ext_t 
+
+	//group functions like count will ignore the null value;
+
+	select coalesce (cost, 0) from part_ext_t // replace null with 0;
