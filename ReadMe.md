@@ -123,3 +123,5 @@ second need to run java, java JavaMain (dont need to include .class)
 	//group functions like count will ignore the null value;
 
 	select coalesce (cost, 0) from part_ext_t // replace null with 0;
+	
+
