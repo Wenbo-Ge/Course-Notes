@@ -125,3 +125,12 @@ second need to run java, java JavaMain (dont need to include .class)
 	select coalesce (cost, 0) from part_ext_t // replace null with 0;
 	
 
+# Java Array
+
+	primitive array and reference type array
+	Primitive:
+	public int temperatureData [] = new int [TOTAL_NUMBERS];
+	temperatureData[i] = randomNumber.nextInt(80+1)-40;
+	non-primitive: 
+	Client clients [] = new Client [numberOfClients];
+	clients [i] = new Client();
