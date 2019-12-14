@@ -134,3 +134,5 @@ second need to run java, java JavaMain (dont need to include .class)
 	non-primitive: 
 	Client clients [] = new Client [numberOfClients];
 	clients [i] = new Client();
+	
+
