@@ -6,7 +6,10 @@ first need to compile the JavaMain.java file,
 second need to run java, java JavaMain (dont need to include .class)
 
 
-# Java lab
+# Java Ideas
+	Use variables in the method, then in other class main method, instaniate other class object and use new object to call methods 		from other classes
+
+	In Class One to call Class Two static method, can directly call Two.method(), no need to new object since it is static
 
 # static to non-staic error
 
