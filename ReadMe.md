@@ -73,6 +73,14 @@ second need to run java, java JavaMain (dont need to include .class)
 # Java decimal formatting
 	http://tutorials.jenkov.com/java-internationalization/decimalformat.html
 	
+# formating
+	System.out.printf ("%10s|", "");
+	//prinf
+	%f for double/float => %10.2f
+	%d for integer
+	%s for String
+	%n for newline
+	
 # Java variables
 	String str; this is the object, default value is null, so no memories.
 	int a ; this is primitive, default value is 0. memory is allocated.
