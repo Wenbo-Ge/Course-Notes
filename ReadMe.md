@@ -120,6 +120,10 @@ second need to run java, java JavaMain (dont need to include .class)
 # java field vs variable:
 	Field is a data member of a class. A field is non static, non-transient instance variable. Field is generally a private variable 	on an instance class. Variables are comprised of fields and non-fields
 
+# Data type:
+	primitive: 8
+	reference: start with upper case like String
+	void means not in two types
 	
 # Sql
 	--Test
