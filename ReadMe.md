@@ -139,6 +139,20 @@
 
 	select coalesce (cost, 0) from part_ext_t // replace null with 0;
 	
+	Left Join and right join
+
+	//use right table borrower_t to compare left table inventory_t
+	select borrower_t.borrowername, inventory_t.bookid
+	from borrower_t
+	left join inventory_t
+	on borrower_t.borrowerid = inventory_t.borrowerid
+
+	//use right table inventory_t to compare left table borrower_t
+	select borrower_t.borrowername, inventory_t.bookid
+	from borrower_t
+	right join inventory_t
+	on borrower_t.borrowerid = inventory_t.borrowerid
+	
 
 # Java Array
 
