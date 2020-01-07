@@ -153,7 +153,16 @@
 	from borrower_t
 	right join inventory_t
 	on borrower_t.borrowerid = inventory_t.borrowerid
-	
+
+# SQL differences between delete, trancate and drop
+	delete                                            truncate                                          drop
+	dml                                               ddl                                               ddl
+
+	delete the data                                   delete the data                                   data gone
+                                
+	the table hhd space                               release the disk space                            disk sapce released
+	and structure will remain                         structure remains                                 structure removed
+
 
 # Java Array
 
