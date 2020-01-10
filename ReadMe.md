@@ -175,3 +175,11 @@
 	clients [i] = new Client();
 	
 
+# web:
+
+	xampp: root folder: htdocs
+	index.php: first page loaded
+
+	use url to access folders and files: localhost: 7331/folderName
+
+	change xampp admin page: config -> server and port setting -> port to 7331 ssl to 4434
