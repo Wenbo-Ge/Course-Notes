@@ -183,3 +183,7 @@
 	use url to access folders and files: localhost: 7331/folderName
 
 	change xampp admin page: config -> server and port setting -> port to 7331 ssl to 4434
+
+# Difference between html and xhtml
+	xhtml is more strict than html
+	https://www.w3schools.com/html/html_xhtml.asp
