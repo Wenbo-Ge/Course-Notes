@@ -233,6 +233,9 @@ for (int[] r : 2dArray) {
 }
 }
 
+# Java UML Sample
+	http://pages.cs.wisc.edu/~hasti/cs302/examples/UMLdiagram.html
+	
 # web:
 
 	xampp: root folder: htdocs
