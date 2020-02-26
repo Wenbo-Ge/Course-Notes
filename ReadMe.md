@@ -174,21 +174,22 @@
 	Client clients [] = new Client [numberOfClients];
 	clients [i] = new Client();
 	
-# difference between input.next() and input.nextLine()
+# Scanner skipping nextLine() after use of other next functions
 		//Code next()//
-			System.out.printf("Enter Employee FirstName LastName ");
-			String fullName = scanner.next();
-			System.out.printf("Address ");
-			String address = scanner.next();
+			System.out.print("Enter Employee FirstName LastName ");
+			String fullName = scanner.nextLine();
+			scanner.nextLine();
+			System.out.print("Address ");
+			String address = scanner.nextLine();
 		//Output//
 		Select type of employee: 1.Supervisor 2.Assistant 3.Driver
 		1
 		Enter Employee FirstName LastName
 		
 		//Code nextLine()//
-			System.out.printf("Enter Employee FirstName LastName ");
+			System.out.print("Enter Employee FirstName LastName ");
 			String fullName = scanner.nextLine();
-			System.out.printf("Address ");
+			System.out.print("Address ");
 			String address = scanner.nextLine();
 
 		//Output//
