@@ -177,8 +177,8 @@
 # Scanner skipping nextLine() after use of other next functions
 		//Code next()//
 			System.out.print("Enter Employee FirstName LastName ");
-			String fullName = scanner.nextLine();
 			scanner.nextLine();
+			String fullName = scanner.nextLine();
 			System.out.print("Address ");
 			String address = scanner.nextLine();
 		//Output//
@@ -196,6 +196,9 @@
 		Select type of employee: 1.Supervisor 2.Assistant 3.Driver
 		1
 		Enter Employee FirstName LastName Address
+		
+		see this: 
+		https://stackoverflow.com/questions/13102045/scanner-is-skipping-nextline-after-using-next-or-nextfoo
 # Java Unit Test
 	String expectedName = "Ang";
 
