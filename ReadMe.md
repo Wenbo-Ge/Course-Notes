@@ -261,6 +261,12 @@ for (int[] r : 2dArray) {
 # Java UML Sample
 	http://pages.cs.wisc.edu/~hasti/cs302/examples/UMLdiagram.html
 	
+# Configure Oracle SQL Developer Connections
+	0. cmd -> sqlplus sys/oracle as sysdba -> create user and previleges
+	1.first location listener.ora file: C:\app\Wenbo\product\18.0.0\dbhomeXE\network\admin
+	2.       (ADDRESS = (PROTOCOL = TCP)(HOST = DESKTOP-0OTGS6K)(PORT = 1522)) put HOST and PORT into
+		 SQL Developer connection
+
 # web:
 
 	xampp: root folder: htdocs
