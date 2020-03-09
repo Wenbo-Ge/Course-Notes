@@ -199,6 +199,7 @@
 		
 		see this: 
 		https://stackoverflow.com/questions/13102045/scanner-is-skipping-nextline-after-using-next-or-nextfoo
+
 # Java Unit Test
 	String expectedName = "Ang";
 
@@ -217,46 +218,46 @@
 	java
 
 
-2d array:
-int [][] 2dArray;
-2dArray = new int [rows][columns];
+	2d array:
+	int [][] 2dArray;
+	2dArray = new int [rows][columns];
 
-2dArray is array of arrays
-2dArray = new [4][5];  4 rows 5 columns;
-2dArray = {{1,2,3},{4,5,6}};
+	2dArray is array of arrays
+	2dArray = new [4][5];  4 rows 5 columns;
+	2dArray = {{1,2,3},{4,5,6}};
 
-loop 2dArray;
-System.out.print("2dArray = {")
-for (int r = 0; r< 2dArray.length, r++) {
-	System.out.print("{")
-	for (int c = 0; c < 2dArray[r].length; c++) {
-	2dArray [r][c] = r * (c+1);
-	System.out.print(2dArray);
-	if (c < (2dArray[r].length - 1)) {
-	System.out.print(",")
+	loop 2dArray;
+	System.out.print("2dArray = {")
+	for (int r = 0; r< 2dArray.length, r++) {
+		System.out.print("{")
+		for (int c = 0; c < 2dArray[r].length; c++) {
+		2dArray [r][c] = r * (c+1);
+		System.out.print(2dArray);
+		if (c < (2dArray[r].length - 1)) {
+		System.out.print(",")
+		}
+		}
+		System.out.print("}")
+		if (r < (2dArray[r].length - 1)) {
+		System.out.print(", \n\t\t")
+		}
+	}
+	System.out.print("};");
+
+	int sum = 0;
+	int prod =1;
+	int countOfEven = 0;
+	for (int[] r : 2dArray) {
+		for (int c : r) {
+		sum += c;
+		prod *= c;
+		if (c % 2 =0) {
+		if (c % 2 = 0)
+		++ countOfEven;
+		countOfEven += 1;
 	}
 	}
-	System.out.print("}")
-	if (r < (2dArray[r].length - 1)) {
-	System.out.print(", \n\t\t")
 	}
-}
-System.out.print("};");
-
-int sum = 0;
-int prod =1;
-int countOfEven = 0;
-for (int[] r : 2dArray) {
-	for (int c : r) {
-	sum += c;
-	prod *= c;
-	if (c % 2 =0) {
-	if (c % 2 = 0)
-	++ countOfEven;
-	countOfEven += 1;
-}
-}
-}
 
 # Java UML Sample
 	http://pages.cs.wisc.edu/~hasti/cs302/examples/UMLdiagram.html
