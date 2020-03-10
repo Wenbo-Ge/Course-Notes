@@ -267,6 +267,7 @@
 	1.first location listener.ora file: C:\app\Wenbo\product\18.0.0\dbhomeXE\network\admin
 	2.       (ADDRESS = (PROTOCOL = TCP)(HOST = DESKTOP-0OTGS6K)(PORT = 1522)) put HOST and PORT into
 		 SQL Developer connection
+	3. if Listener is not work, then go to task manager -> service -> start xe servic and stop ORCL
 
 # web:
 
