@@ -215,9 +215,12 @@
 	cannot import classes in the default
 	
 	
-If (object1.method() == object2.method()) { // use object1.method().equals(object2.method()), address of object is different
+	If (object1.method() == object2.method()) { // use object1.method().equals(object2.method()), address of object is different
 
-}
+	} 
+	
+# try catch
+	can thro
 
 	
 # Java 2d array
