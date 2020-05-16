@@ -328,3 +328,6 @@ public int compareTo(File b){
 	angular
 	https://blog.csdn.net/luodong1501/article/details/100106623
 	
+	deploy angular to aws
+	https://medium.com/@sandeeptengale/deploy-angular-app-on-aws-ec2-instance-20749f17b33e
+	
