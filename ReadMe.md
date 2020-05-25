@@ -305,18 +305,7 @@ public int compareTo(File b){
 
 	change xampp admin page: config -> server and port setting -> port to 7331 ssl to 4434
 
-# Difference between html and xhtml
-	xhtml is more strict than html
-	https://www.w3schools.com/html/html_xhtml.asp
 	
-# head tag can only includes following:
-	<title> (this element is required in an HTML document)
-	<style>
-	<base>
-	<link>
-	<meta>
-	<script>
-	<noscript>
 	
 # Some small projects
 	swing
