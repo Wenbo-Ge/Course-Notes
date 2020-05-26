@@ -289,6 +289,9 @@ public int compareTo(File b){
 # Java UML Sample
 	http://pages.cs.wisc.edu/~hasti/cs302/examples/UMLdiagram.html
 	
+# JavaFX Notes
+	http://tutorials.jenkov.com/javafx/index.html
+	
 # Configure Oracle SQL Developer Connections
 	0. cmd -> sqlplus sys/oracle as sysdba -> create user and previleges
 	1.first location listener.ora file: C:\app\Wenbo\product\18.0.0\dbhomeXE\network\admin
