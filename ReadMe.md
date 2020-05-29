@@ -308,7 +308,8 @@ public int compareTo(File b){
 
 	change xampp admin page: config -> server and port setting -> port to 7331 ssl to 4434
 
-	
+# Mobile Android Studio app cannot be installed
+	https://www.youtube.com/watch?v=5gpjIKIbVWM
 	
 # Some small projects
 	swing
