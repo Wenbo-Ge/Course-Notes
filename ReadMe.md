@@ -292,6 +292,8 @@ public int compareTo(File b){
 # JavaFX Notes
 	http://tutorials.jenkov.com/javafx/index.html
 	
+# Commit first, then push
+	
 # Configure Oracle SQL Developer Connections
 	0. cmd -> sqlplus sys/oracle as sysdba -> create user and previleges
 	1.first location listener.ora file: C:\app\Wenbo\product\18.0.0\dbhomeXE\network\admin
