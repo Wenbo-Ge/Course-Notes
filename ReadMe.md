@@ -272,14 +272,14 @@
 
 JAVA Sort OBJECTS BY PROPERTIES
 
-Override compareTo Method
-The compareTo method defines the natural order; the default way for ordering objects of a class.
-It should return a negative integer(usually -1), if the current triggering object is less than the passed one, and positive integer (usually +1) if greater than, and 0 if equal.
-public int compareTo(File b){ 
-    if(this.name > b.name) return 1; 
-    if(this.name < b.name) return -1;
-    else                   return 0;
-}
+# Override compareTo Method
+	The compareTo method defines the natural order; the default way for ordering objects of a class.
+	It should return a negative integer(usually -1), if the current triggering object is less than the passed one, and positive integer (usually +1) if greater than, and 0 if equal.
+	public int compareTo(File b){ 
+	    if(this.name > b.name) return 1; 
+	    if(this.name < b.name) return -1;
+	    else                   return 0;
+	}
 
 # Java compare string:
 	.equals() compares value
