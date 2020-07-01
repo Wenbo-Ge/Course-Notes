@@ -330,4 +330,36 @@ JAVA Sort OBJECTS BY PROPERTIES
 
 # User Debugger to check values and types
 
+# Android Studio no such column Issue
+	1.terminate app and delete database
+	2. use this format 
+	@Override
+	    public void onCreate(SQLiteDatabase db)
+	    {
+		db.execSQL("CREATE TABLE " + TABLE_NAME + " (_id INTEGER PRIMARY KEY AUTOINCREMENT, MESSAGE text, SENT integer);");  // add or remove columns
+	    }
+	    
+# Android sursorIndexOutOfBoundException Issue
+	
+
+	put *results.getColumnIndex(MyOpener.COL_MESSAGE) etc.* outside while loop
+	Cursor results;
+	int messageColumnIndex = results.getColumnIndex(MyOpener.COL_MESSAGE);
+        int idColIndex = results.getColumnIndex(MyOpener.COL_ID);
+        int sentColIndex = results.getColumnIndex(MyOpener.COL_SENT);
+	
+	put *results.getString(messageColumnIndex) etc.* within while loop
+	
+	while(results.moveToNext())
+        {
+            String message = results.getString(messageColumnIndex);
+            long id = results.getLong(idColIndex);
+            boolean sent = results.getInt(sentColIndex) == 1;
+
+            //add the new Contact to the array list:
+            elements.add(new Message(message, sent, id));
+            printCursor(results,db.getVersion());
+
+        }
+
 	
