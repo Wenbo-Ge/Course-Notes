@@ -361,5 +361,12 @@ JAVA Sort OBJECTS BY PROPERTIES
             printCursor(results,db.getVersion());
 
         }
+	
+# Android delete database
+	1.put GoToADB.bat in the project folder
+	2.run GoToADB.bat
+	3.run sdb shell
+	4.run-as projectname in mainfest
+	5.cd to database
 
 	
