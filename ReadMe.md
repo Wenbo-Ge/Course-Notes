@@ -370,6 +370,5 @@ JAVA Sort OBJECTS BY PROPERTIES
 	5.cd to database
 	
 # Data Mining
-
-
+	R language
 	
