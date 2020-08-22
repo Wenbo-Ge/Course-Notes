@@ -372,3 +372,7 @@ JAVA Sort OBJECTS BY PROPERTIES
 # Data Mining
 	R language
 	
+# Email Manner
+	Reply to all;
+	Don't add new recipent in the email chain
+	
