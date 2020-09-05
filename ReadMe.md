@@ -371,7 +371,7 @@ JAVA Sort OBJECTS BY PROPERTIES
 	
 # Data Mining
 	R language
-	
+	https://www.tutorialspoint.com/r/index.htm
 	
 # Email Manner
 	Reply to all;
