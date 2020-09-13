@@ -373,6 +373,9 @@ JAVA Sort OBJECTS BY PROPERTIES
 	R language
 	https://www.tutorialspoint.com/r/index.htm
 	
+	List Structure: Str()
+	List variable: variable name
+	
 # Email Manner
 	Reply to all;
 	Don't add new recipent in the email chain
