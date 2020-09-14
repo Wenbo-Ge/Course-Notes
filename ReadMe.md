@@ -376,6 +376,8 @@ JAVA Sort OBJECTS BY PROPERTIES
 	List Structure: Str()
 	List variable: variable name
 	
+	Shiny R to build R interface
+	
 # Email Manner
 	Reply to all;
 	Don't add new recipent in the email chain
