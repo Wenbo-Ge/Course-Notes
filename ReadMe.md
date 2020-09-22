@@ -369,25 +369,7 @@ JAVA Sort OBJECTS BY PROPERTIES
 	4.run-as projectname in mainfest
 	5.cd to database
 	
-# Data Mining
-	R language
-	https://www.tutorialspoint.com/r/index.htm
-	
-	Shiny R to build R interface
-	
-	Remove HTML tags in R:
-	https://www.thetopsites.net/article/51295573.shtml 
-	library(rvest)
 
-	strip_html <- function(s) {
-	    html_text(read_html(s))
-	}
-	Example output:
-
-	> strip_html("junk junk<a href=\"/wiki/abstraction_(mathematics)\" title=\"abstraction (mathematics)\"> junk junk")
-	[1] "junk junk junk junk"
 	
-# Email Manner
-	Reply to all;
-	Don't add new recipent in the email chain
+
 	
