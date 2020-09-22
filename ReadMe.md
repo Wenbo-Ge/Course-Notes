@@ -370,6 +370,7 @@ JAVA Sort OBJECTS BY PROPERTIES
 	5.cd to database
 	
 
-	
+# JavaScript practice
+	setInterval(function(){ document.getElementById('clickMe').click(); }, 240000);
 
 	
