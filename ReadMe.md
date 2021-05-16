@@ -373,4 +373,7 @@ JAVA Sort OBJECTS BY PROPERTIES
 # JavaScript practice
 	setInterval(function(){ document.getElementById('clickMe').click(); }, 240000);
 
-	
+# MySql Workbench add connection
+	1. First connect to root user
+	2. Run sql script, new user with password and a new schema will be created
+	3. Create a new connection with new password and user name, then only that schema will be kept
