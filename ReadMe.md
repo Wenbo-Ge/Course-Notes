@@ -326,7 +326,6 @@ JAVA Sort OBJECTS BY PROPERTIES
 	deploy angular to aws
 	https://medium.com/@sandeeptengale/deploy-angular-app-on-aws-ec2-instance-20749f17b33e
 	
-# COBOL Learning Material
 
 # User Debugger to check values and types
 
@@ -377,3 +376,7 @@ JAVA Sort OBJECTS BY PROPERTIES
 	1. First connect to root user
 	2. Run sql script, new user with password and a new schema will be created
 	3. Create a new connection with new password and user name, then only that schema will be kept
+
+# oracle sqlplus login fails
+	should check service to activate oracleservice
+	
