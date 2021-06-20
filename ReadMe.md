@@ -373,10 +373,17 @@ JAVA Sort OBJECTS BY PROPERTIES
 	setInterval(function(){ document.getElementById('clickMe').click(); }, 240000);
 
 # MySql Workbench add connection
-	1. First connect to root user
+	1. First connect to root user mysql workbench root password:0709
 	2. Run sql script, new user with password and a new schema will be created
 	3. Create a new connection with new password and user name, then only that schema will be kept
 
 # oracle sqlplus login fails
 	should check service to activate oracleservice
+	
+# timezone issue in java web application 
+	https://stackoverflow.com/questions/37719818/the-server-time-zone-value-aest-is-unrecognized-or-represents-more-than-one-ti
+	Second solution: n MySQL my.ini file set default-time-zone value bellow like
+
+	Set default time zone
+	default-time-zone = '+08:00'
 	
